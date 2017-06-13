@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31BA8EFA1EEF65F9002671FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31BA8EF91EEF65F9002671FC /* GoogleService-Info.plist */; };
 		31F0B3191EEF19BA00E5BCF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F0B3181EEF19BA00E5BCF9 /* AppDelegate.swift */; };
-		31F0B31B1EEF19BA00E5BCF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F0B31A1EEF19BA00E5BCF9 /* ViewController.swift */; };
+		31F0B31B1EEF19BA00E5BCF9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F0B31A1EEF19BA00E5BCF9 /* LoginViewController.swift */; };
 		31F0B31E1EEF19BA00E5BCF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31F0B31C1EEF19BA00E5BCF9 /* Main.storyboard */; };
 		31F0B3201EEF19BA00E5BCF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F0B31F1EEF19BA00E5BCF9 /* Assets.xcassets */; };
 		31F0B3231EEF19BA00E5BCF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31F0B3211EEF19BA00E5BCF9 /* LaunchScreen.storyboard */; };
+		82E409E6E7CA39F2F20E4CF8 /* Pods_Peer_Lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD5A5E2D3B67403D35F4E5A /* Pods_Peer_Lab.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31BA8EF91EEF65F9002671FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		31F0B3151EEF19BA00E5BCF9 /* Peer Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peer Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F0B3181EEF19BA00E5BCF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31F0B31A1EEF19BA00E5BCF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31F0B31A1EEF19BA00E5BCF9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		31F0B31D1EEF19BA00E5BCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31F0B31F1EEF19BA00E5BCF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31F0B3221EEF19BA00E5BCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31F0B3241EEF19BA00E5BCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD5A5E2D3B67403D35F4E5A /* Pods_Peer_Lab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Peer_Lab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D704C9DD0B0BFCC7A22C23A8 /* Pods-Peer Lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peer Lab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Peer Lab/Pods-Peer Lab.debug.xcconfig"; sourceTree = "<group>"; };
+		F610EA737BD23A0948200DDA /* Pods-Peer Lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peer Lab.release.xcconfig"; path = "Pods/Target Support Files/Pods-Peer Lab/Pods-Peer Lab.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E409E6E7CA39F2F20E4CF8 /* Pods_Peer_Lab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				31F0B3171EEF19BA00E5BCF9 /* Peer Lab */,
 				31F0B3161EEF19BA00E5BCF9 /* Products */,
+				B281A3FF85D035AB96972EEA /* Pods */,
+				34F9A031D57780724533EE3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +64,31 @@
 			isa = PBXGroup;
 			children = (
 				31F0B3181EEF19BA00E5BCF9 /* AppDelegate.swift */,
-				31F0B31A1EEF19BA00E5BCF9 /* ViewController.swift */,
+				31F0B31A1EEF19BA00E5BCF9 /* LoginViewController.swift */,
 				31F0B31C1EEF19BA00E5BCF9 /* Main.storyboard */,
 				31F0B31F1EEF19BA00E5BCF9 /* Assets.xcassets */,
 				31F0B3211EEF19BA00E5BCF9 /* LaunchScreen.storyboard */,
 				31F0B3241EEF19BA00E5BCF9 /* Info.plist */,
+				31BA8EF91EEF65F9002671FC /* GoogleService-Info.plist */,
 			);
 			path = "Peer Lab";
+			sourceTree = "<group>";
+		};
+		34F9A031D57780724533EE3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFD5A5E2D3B67403D35F4E5A /* Pods_Peer_Lab.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B281A3FF85D035AB96972EEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D704C9DD0B0BFCC7A22C23A8 /* Pods-Peer Lab.debug.xcconfig */,
+				F610EA737BD23A0948200DDA /* Pods-Peer Lab.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31F0B3271EEF19BA00E5BCF9 /* Build configuration list for PBXNativeTarget "Peer Lab" */;
 			buildPhases = (
+				C49E4A09C8BF68B7BDA4DC45 /* [CP] Check Pods Manifest.lock */,
 				31F0B3111EEF19BA00E5BCF9 /* Sources */,
 				31F0B3121EEF19BA00E5BCF9 /* Frameworks */,
 				31F0B3131EEF19BA00E5BCF9 /* Resources */,
+				09CC4905DA3B280D43433221 /* [CP] Embed Pods Frameworks */,
+				093C19D5027E183B5820DE45 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +126,7 @@
 				TargetAttributes = {
 					31F0B3141EEF19BA00E5BCF9 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3HVEEN5V6W;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31F0B3231EEF19BA00E5BCF9 /* LaunchScreen.storyboard in Resources */,
+				31BA8EFA1EEF65F9002671FC /* GoogleService-Info.plist in Resources */,
 				31F0B3201EEF19BA00E5BCF9 /* Assets.xcassets in Resources */,
 				31F0B31E1EEF19BA00E5BCF9 /* Main.storyboard in Resources */,
 			);
@@ -131,12 +163,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		093C19D5027E183B5820DE45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Peer Lab/Pods-Peer Lab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09CC4905DA3B280D43433221 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Peer Lab/Pods-Peer Lab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C49E4A09C8BF68B7BDA4DC45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31F0B3111EEF19BA00E5BCF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31F0B31B1EEF19BA00E5BCF9 /* ViewController.swift in Sources */,
+				31F0B31B1EEF19BA00E5BCF9 /* LoginViewController.swift in Sources */,
 				31F0B3191EEF19BA00E5BCF9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -249,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -260,9 +340,12 @@
 		};
 		31F0B3281EEF19BA00E5BCF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D704C9DD0B0BFCC7A22C23A8 /* Pods-Peer Lab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3HVEEN5V6W;
 				INFOPLIST_FILE = "Peer Lab/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.czekhoff.Peer-Lab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +355,12 @@
 		};
 		31F0B3291EEF19BA00E5BCF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F610EA737BD23A0948200DDA /* Pods-Peer Lab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3HVEEN5V6W;
 				INFOPLIST_FILE = "Peer Lab/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.czekhoff.Peer-Lab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +387,7 @@
 				31F0B3291EEF19BA00E5BCF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
