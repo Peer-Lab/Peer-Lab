@@ -15,13 +15,14 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        setupTwitterLogInButton()
+    }
+
+    @IBAction func facebookButtonDidTapped(_ sender: UIButton) {
+        // Facebook Auth
     }
     
-    func setupTwitterLogInButton() {
-        let twitterLogInButton = TWTRLogInButton { (session, error) in
+    @IBAction func twitterButtonDidTapped(_ sender: UIButton) {
+        Twitter.sharedInstance().logIn { (session, error) in
             if session != nil {
                 let authToken = session?.authToken
                 let authTokenSecret = session?.authTokenSecret
@@ -34,16 +35,11 @@ class LoginViewController: UIViewController {
                 })
             }
         }
-        
-        twitterLogInButton.center = self.view.center
-        view.addSubview(twitterLogInButton)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func gPlusButtonDidTapped(_ sender: UIButton) {
+        // Google Plush Auth
     }
-
-
+    
 }
 
